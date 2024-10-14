@@ -135,3 +135,7 @@ The API will be available at `http://localhost:5000`.
   ```bash
   GET /api/transactions?status=success&type=credit&fromDate=2024-10-01&toDate=2024-10-15
   ```
+
+### Run in Postman
+
+    **Postman** - [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/26591371-f22e57b7-032e-4268-a9fd-097451b38b37?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D26591371-f22e57b7-032e-4268-a9fd-097451b38b37%26entityType%3Dcollection%26workspaceId%3D6f236162-605d-44df-aa93-79d75022bdf5)
