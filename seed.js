@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const User = require('./models/userModel');         // Assuming these models are in the models folder
+const User = require('./models/userModel');
 const Transaction = require('./models/transactionModel');
 const dotenv = require('dotenv');
 
@@ -70,12 +70,11 @@ const seedDatabase = async () => {
     console.log('10 transactions created!');
 
     console.log('Seeding complete!');
-    mongoose.disconnect();  // Close the connection once the data is seeded
+    mongoose.disconnect();
   } catch (error) {
     console.error('Error seeding data:', error);
-    mongoose.disconnect();  // Close the connection if there's an error
+    mongoose.disconnect();
   }
 };
 
-// Run the seeding function
 seedDatabase();
